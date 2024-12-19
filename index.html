@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Visually Pleasing Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">My Website</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Website</h1>
+            <p>We provide solutions that matter to you.</p>
+            <button onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>We are a team dedicated to bringing you the best services. Our focus is on delivering high-quality solutions tailored to your needs.</p>
+    </section>
+
+    
+    <section id="services" class="content-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <h3>Data Analytics</h3>
+                <p>We turn data into insights, helping you to make smarter decisions.</p>
+            </div>
+            <div class="service-box">
+                <h3>AI/ML</h3>
+                <p>AI/ML solutions drive innovation by predicting trends and automating processes.</p>
+            </div>
+            <div class="service-box">
+                <h3>Web development</h3>
+                <p>We build custom,responsive websites that enhance user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us at contact@mywebsite.com</p>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
